@@ -1,0 +1,112 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Peer Evaluation Submission</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href = "globase-ericka.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1>
+            <img src = "images/globelogo.png" alt = "GLOBASE Logo" height =150>
+        GLOBASE Guatemala</h1>
+            
+            
+        </div>
+    </header>
+    
+       <nav class = "navbar navbar-default">
+        <ul class = "navbar navbar-nav" style ="list-style-type:none">
+            <li class = "dropdown"><a class = "navlink dropdown-toggle"  href = "home.html">Home<span></span></a></li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "aboutus.html">Applicants<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="Submit Application.html">Submit Application</a></li>                    
+                </ul>
+                </li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown"  href = "events.html">Participants<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="ClientPreferences.html">Set Client Preferences</a></li>  
+                    <li><a href="Peer Evaluation Submission.html">Submit Peer Evaluation</a></li> 
+                </ul>
+                </li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "specials.html">Leadership Team<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="managelttasks.html">Manage Tasks</a></li>  
+                    <li><a href="Upload Meeting Agenda.html">Upload Meeting Agenda</a></li>
+                    <li><a href="Client Info.html">Manage Clients</a></li> 
+                    <li><a href="manageconsultingteam.html">Manage Consulting Teams</a></li>
+                    <li><a href="recordinterviewresults.html">Record Interview Results</a></li>
+                    <li><a href="sendappstatus.html">Send Application Status</a></li>  
+                    <li><a href=notifmainpage.html>Send Notifications</a></li> 
+                    <li><a href="sendweeklyprogressreport.html">Send Weekly Progress Report</a></li>
+                </ul>
+                </li>
+            <li class = "dropdown">
+                    <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "unapprovedevents.html">Staff<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="addltmember.html">Manage Leadership Team</a></li>  
+                    <li><a href="getstudentreport.html">Retrieve Student Reports</a></li> 
+                </ul>
+                        
+            </li>
+                        
+        </ul>
+    </nav>
+    
+    <main>
+          <h2 class="bluetitle">Peer Evaluation</h2>
+        <p>Please input your Student ID, then begin your peer evaluation.</p>
+        
+        <form action = "Peer Evaluation Confirmation Page.html" method = "get">
+         <label for="studentid">Student ID: </label>
+        <input type="text" name="studentid" id="studentid"><br>
+        <hr>
+        <label for="select">Team ID: </label>
+        <select>
+                       <option>Select Team</option> <option>Team A</option><option>Team B</option><option>Team C</option>
+                    
+        </select><br>
+        
+        <label for="peername">Peer Name: </label>
+        <input type="text" name="peername" id="peername"><br>
+         <label for="select">Percentage Rating: </label>
+        <select>
+            <option>Select Rating</option>
+            <option>10%</option>
+            <option>20%</option>
+            <option>30%</option>
+            <option>40%</option>
+            <option>50%</option>
+            <option>60%</option>
+            <option>70%</option>
+            <option>80%</option>
+            <option>90%</option>
+            <option>100%</option>
+            
+                    
+        </select><br>
+         <label for="rating">Reasoning for Rating: </label><br>
+        <textarea name="rating" id="rating"></textarea><br>
+         <br>
+         <input class="button" type="submit" name="submit" id="submit" value="Submit Peer Evaluation">
+        </form>
+       
+    </main>
+
+    <footer>
+        
+        GLOBASE | Phone: 812-334-2252 | 411 E. 10th Street Bloomington, Indiana 47408 
+        
+       
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,123 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Upload Meeting Agenda</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href = "globase.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1>
+            <img src = "images/globelogo.png" alt = "GLOBASE Logo" height =150>
+        GLOBASE Guatemala</h1>
+        </div>
+    </header>
+    
+<nav class = "navbar navbar-default">
+        <ul class = "navbar navbar-nav" style ="list-style-type:none">
+            <li class = "dropdown"><a class = "navlink dropdown-toggle"  href = "home.html">Home<span></span></a></li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "aboutus.html">Applicants<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="Submit Application.html">Submit Application</a></li>                    
+                </ul>
+                </li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown"  href = "events.html">Participants<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="ClientPreferences.html">Set Client Preferences</a></li>  
+                    <li><a href="Peer Evaluation Submission.html">Submit Peer Evaluation</a></li> 
+                </ul>
+                </li>
+            <li class = "dropdown">
+                <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "specials.html">Leadership Team<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="managelttasks.html">Manage Tasks</a></li>  
+                    <li><a href="Upload Meeting Agenda.html">Upload Meeting Agenda</a></li>
+                    <li><a href="Client Info.html">Manage Clients</a></li> 
+                    <li><a href="manageconsultingteam.html">Manage Consulting Teams</a></li>
+                    <li><a href="recordinterviewresults.html">Record Interview Results</a></li>
+                    <li><a href="sendappstatus.html">Send Application Status</a></li>  
+                    <li><a href=notifmainpage.html>Send Notifications</a></li> 
+                    <li><a href="sendweeklyprogressreport.html">Send Weekly Progress Report</a></li>
+                </ul>
+                </li>
+            <li class = "dropdown">
+                    <a class = "navlink dropdown-toggle" data-toggle="dropdown" href = "unapprovedevents.html">Staff<span class = "caret"></span></a>
+                <ul class = "dropdown-menu">
+                    <li><a href="addltmember.html">Manage Leadership Team</a></li>  
+                    <li><a href="getstudentreport.html">Retrieve Student Reports</a></li> 
+                </ul>
+                        
+            </li>
+                        
+        </ul>
+    </nav>
+    <style>
+        
+        h2{
+            padding: 8px;
+          
+        }
+        
+        form{
+            padding: 0px;
+            
+            border-radius: 10px;
+        }
+        
+        textarea{
+            width:50%;
+            height:200px;
+        }
+        
+        label{
+            font-size: small;
+            font-weight:bold;
+        }
+        
+        textarea::placeholder{
+            font-size: small;
+        }
+        
+        .button:hover{
+            background-color:whitesmoke;
+        }
+        
+        form
+        {
+            padding-left:20px;
+           
+        }
+        
+      
+        
+    </style>
+    <main>
+    <h2 class="bluetitle">Upload Meeting Agenda</h2>
+    
+    <form action="MeetingAgendaConfirmation.html" method="get">
+        <label for="upload">Meeting Agenda:</label><br>
+        <textarea name="upload" id="upload" placeholder="Please enter meeting agenda details here"></textarea><br>
+        
+        <div class="custom-file"><br>
+            <label class="custom-file-label" for="customfile">Choose file:</label>
+            <input type=file class="custom-file-input" id="customfile">
+        </div>
+        <br>
+        <input class="button" type="submit" name="upload" id="upload" value="Upload Meeting Agenda">
+        
+    </form>
+    </main>
+    
+    <footer>
+        
+        GLOBASE | Phone: 812-334-2252 | 459 International Blvd San Francisco, CA 40305
+    </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:small;
+    color:#595959;
+    
+    
+   
+}
+main{
+    padding-left:20px;
+    padding-right:20px;
+}
+h1{
+    
+    font-family:Arial, Helvetica, sans-serif;	
+
+    background-image:url("images/guatemala.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color:#f2f2f2;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-top:30px;
+    padding-bottom:20px;
+    font-size:55;
+      }
+.slogan{
+    
+    font-size:18;
+}
+
+header{
+    margin:0;
+    
+}
+nav{
+    font-size:small;
+    background-color:#99ffcc;
+    color:black;
+    padding-top:8px;
+    
+}
+
+.dropdown:click{
+    text-decoration:none;
+}
+.navbar{
+        
+}
+
+q{
+    font-style:oblique;
+}
+
+.bluetitle{
+    font-size:20px;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    color:#25868F;
+}
+
+
+footer
+{
+    background-color:#25868F;
+    color:white;
+    padding:10px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+
+.eventslist{
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    background-color:#f2f2f2;
+    padding:10px;
+    margin:5px;                          
+    list-style-type: none;
+
+}  
+
+
+.navlink{
+    text-decoration: none;
+    color: #426a6e;;
+    font-weight:bold;
+
+    
+}
+
+.navlink:hover{    
+    color: #333399;
+    text-decoration:none;
+    
+}
+
+.dropdown{
+    margin:10px;
+}
+
+.button{
+    background-color:white;
+    color: #25868F;
+    border-radius:10px;
+    padding:5px;
+    margin:10px;
+    font-size:medium;
+    border-color:lightgray;
+    font-weight:bold;
+    
+
+}
+.button:hover{
+    background-color:whitesmoke;
+    
+}
+
+fieldset{
+    margin-top:30px;
+}
+
+legend
+{
+    font-size:medium;
+}
+
+label {
+    margin:5px;
+    padding-right:15px;
+   
+}
+
+.phonetype{
+    padding-right:0px;
+}
+
+q, .quoter{
+    color: #25868F;
+    font-size:medium;
+    
+}
+
+.studentapplink
+{
+    text-decoration:none;
+    color: lightseagreen;
+}
+.studentapplink:hover
+{
+    text-decoration:none;
+    
+}
+
+.globasepic{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
